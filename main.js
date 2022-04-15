@@ -6,7 +6,9 @@ const span = document.querySelector("#show"),
   //Generate Hex (Nums: 0-9, letters: A-F)    
 
 button.onclick = () => {
-    body.style.backgroundColor = generateHex()
+  let valueOfHex = generateHex()
+    body.style.backgroundColor = valueOfHex
+    span.innerHTML = valueOfHex
 }
 
 function generateHex() {
