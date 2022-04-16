@@ -5,8 +5,8 @@ h1 {
 }
 
 button {
-  margin-left: 525px;
-  margin-top: 50px;
+  display: block;
+  margin: auto auto;
   padding: 25px;
   border-radius: 10px;
   border: none;
